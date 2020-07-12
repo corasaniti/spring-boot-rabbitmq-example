@@ -75,5 +75,6 @@ public class ProductServiceImpl implements ProductService {
         actionmap.put("id", id);
         log.info("Sending the index request through queue message");
         rabbitTemplate.convertAndSend(SpringBootRabbitMQApplication.SFG_MESSAGE_QUEUE, actionmap);
+        log.info("Sent Request through queue message");
     }
 }
