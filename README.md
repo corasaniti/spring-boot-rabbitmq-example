@@ -6,7 +6,7 @@ Things to be checked before starting the application:
 * Update the application.properties file with your MySQL username and password
 * Create a new database schema with name springboot_rabbitmq_example
 * If you wish to used a different database / schema, you will need to override values in application.properties
-* Ensure that you have a rabbitmq server running and correctly configured in application.properties (default is localhost:5671) )
+* Ensure that you have a rabbitmq server running and correctly configured in application.properties (default is localhost:5672) )
 
 Application flow:
  
