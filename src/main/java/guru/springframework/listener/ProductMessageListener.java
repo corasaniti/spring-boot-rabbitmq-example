@@ -36,5 +36,6 @@ public class ProductMessageListener {
 
         productRepository.save(product);
         log.info("Message processed...");
+        log.info("Product Received: Description " + product.getDescription() + " Price: " + product.getPrice());
     }
 }
